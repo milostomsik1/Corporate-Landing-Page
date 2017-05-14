@@ -6,7 +6,12 @@
 	background-position: right bottom;
 	background-size: 40%;
 	background-attachment: fixed;
-
+	@media (max-width: 767px) {
+		min-height: 625px;
+	}
+	@media (max-width: 575px) {
+		min-height: 550px;
+	}
 	.platforms_item {
 		padding: 50px 20px;
 		h4 {
@@ -16,12 +21,13 @@
 		h2 {
 			font-weight: 400;
 			margin-bottom: 47px;
-			span { padding-left: 10px; }
+			span {
+				padding-left: 10px;
+			}
 		}
 		p {
 			font-weight: 500;
 			margin: 28px 0;
 		}
 	}
-
 }
