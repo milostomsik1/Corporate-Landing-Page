@@ -1,0 +1,43 @@
+#hero {
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	h1 { font-weight: 100; }
+	.play-button {
+		height: 60px;
+		width: 60px;
+		background-color: $light-purple;
+		border-radius: 50%;
+		margin-top: 46px;
+		margin-bottom: 40px;
+		transform: scale(1);
+		transition: all ease-in-out 300ms;
+		cursor: pointer;
+		box-shadow: 0 0 0 0 transparent;
+		&:hover {
+			transform: scale(1.2);
+			background-color: darken($light-purple, 20%);
+			box-shadow: 0 0 30px 10px $light-purple;
+			.play-triangle {
+				transform: scale(1.2);
+			}
+		}
+		.play-triangle {
+			width: 0; 
+			height: 0; 
+			border-top: 9px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left: 17px solid $white;
+			position: relative;
+			left: 5%;
+			transform: scale(1);
+			transition: all ease-in-out 300ms;
+		}
+	}
+	a {
+		margin-bottom: 14px;
+		padding: 18px 50px;
+	}
+	small { display: block; }
+}
