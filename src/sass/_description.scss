@@ -1,0 +1,30 @@
+#description {
+	min-height: 550px;
+	background-image: url("../img/triangle-description.png");
+	background-repeat: no-repeat;
+	background-position: 0% -35%;
+	background-attachment: fixed;
+	.container {
+		.row {
+			div:first-of-type {
+				background-image: url("../img/macbook.png");
+				height: 368px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+			div:last-of-type {
+				h4 {
+					@media (max-width: 991px) {
+						color: $white !important;
+					}
+				}
+				span {
+					@media (max-width: 991px) {
+						color: $white !important;
+					}
+				}
+			}
+		}
+	}
+}
