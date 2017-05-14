@@ -1,3 +1,12 @@
+.bg-white {
+	background-color: $white !important;
+}
+
 .text-red {
 	color: $text-red !important;
+}
+
+::selection {
+	color: $white;
+	background-color: $text-red;
 }

@@ -1,27 +1,27 @@
 #hero {
+	padding: 50px 0; //padding za mobilne
 	background-image: url(../img/hero.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
-	h1 { font-weight: 100; }
+	min-height: 100vh; //fix za mobilne uredjaje, sa width 320px, zbog background-size: cover, ispada content iz vh
+	height: 100%; //postavi content na 100vh, a onda wrapuje 100% contenta ako je manje od 100vh
+	h1 { font-weight: 100;}
 	.play-button {
 		height: 60px;
 		width: 60px;
 		background-color: $light-purple;
-		border-radius: 50%;
 		margin-top: 46px;
 		margin-bottom: 40px;
-		transform: scale(1);
-		transition: all ease-in-out 300ms;
+		border-radius: 50%;
 		cursor: pointer;
 		box-shadow: 0 0 0 0 transparent;
+		transform: scale(1);
+		transition: all ease-in-out 300ms;
 		&:hover {
 			transform: scale(1.2);
-			background-color: darken($light-purple, 20%);
-			box-shadow: 0 0 30px 10px $light-purple;
-			.play-triangle {
-				transform: scale(1.2);
-			}
+			background-color: darken($light-purple, 15%);
+			box-shadow: 0 0 35px 10px $light-purple;
+			.play-triangle { transform: scale(1.2); }
 		}
 		.play-triangle {
 			width: 0; 
@@ -39,5 +39,5 @@
 		margin-bottom: 14px;
 		padding: 18px 50px;
 	}
-	small { display: block; }
+	small { display: block; } //default inline, ide iza <a>
 }

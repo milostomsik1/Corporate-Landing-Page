@@ -1,3 +1,20 @@
 #platforms {
-	
+	min-height: 724px;
+	h2 {
+		font-weight: 400;
+		margin-bottom: 47px;
+	}
+	p {
+		font-weight: 500;
+		margin: 28px 0;
+	}
+	.col-md-5 {
+		background-color: $light-gray;
+		background-image: url("../img/triangle-platforms.png");
+		background-repeat: no-repeat;
+		background-position: right center;
+		background-size:  41.7%;
+		background-attachment: fixed;
+	}
+
 }
