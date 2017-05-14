@@ -46,14 +46,8 @@
 			width: 164px;
 			background: url("../img/coffee-mug.png") no-repeat;
 			position: absolute;
-			right: 40px;
-			bottom: 0px;
-			@media (max-width: 991px) {
-				//////////
-			}
-			@media (max-width: 767px) {
-				//////////
-			}
+			right: -30px;
+			bottom: -45px;
 			@media (max-width: 575px) {
 				display: none;
 			}

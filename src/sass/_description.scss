@@ -5,6 +5,8 @@
 	background-position: 0% -35%;
 	background-attachment: fixed;
 	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
 		.row {
 			div:first-of-type {
 				background-image: url("../img/macbook.png");
@@ -12,9 +14,18 @@
 				background-repeat: no-repeat;
 				background-position: center;
 				background-size: contain;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				@media (max-width: 575px) {
+					margin: 0 20px;
+					height: 60vw;
+				}
 			}
 			div:last-of-type {
+				margin-top: 50px !important;
+				margin-bottom: 50px !important;
 				h4 {
+					width: 100%;
 					@media (max-width: 991px) {
 						color: $white !important;
 					}
