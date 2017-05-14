@@ -5,7 +5,7 @@
 	background-size: cover;
 	min-height: 100vh; //fix za mobilne uredjaje, sa width 320px, zbog background-size: cover, ispada content iz vh
 	height: 100%; //postavi content na 100vh, a onda wrapuje 100% contenta ako je manje od 100vh
-	h1 { font-weight: 100;}
+	h1 { font-weight: 100; }
 	.play-button {
 		height: 60px;
 		width: 60px;
@@ -24,8 +24,8 @@
 			.play-triangle { transform: scale(1.2); }
 		}
 		.play-triangle {
-			width: 0; 
-			height: 0; 
+			width: 0;
+			height: 0;
 			border-top: 9px solid transparent;
 			border-bottom: 10px solid transparent;
 			border-left: 17px solid $white;

@@ -1,4 +1,4 @@
-//user vars
+//USER VARS
 $text-red: #ff6d6d;
 $bg-red: #fb8686;
 $light-gray: #f6f5f3;
@@ -8,15 +8,14 @@ $body-text: #282828;
 $bg-features: #f6f5f3;
 
 
-// bootstrap override
+//BOOTSTRAP OVERRIDE
+$brand-primary: $text-red;
+$body-color: $body-text;
+
 $font-family-sans-serif: Exo, Arial, sans-serif !default;
 
 $font-size-h1: 60px !default;
 $font-size-h2: 40px !default;
 $font-size-h3: 22px !default;
 $font-size-h4: 16px !default;
-
 $small-font-size: 14px !default;
-
-$brand-primary: $text-red;
-$body-color: $body-text;
