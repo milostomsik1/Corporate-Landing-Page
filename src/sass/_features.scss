@@ -1,0 +1,35 @@
+#features {
+	background-color: $bg-features;
+	.container {
+		min-height: 675px;
+		position: relative;
+		.pen-holder {
+			height: 329px;
+			width: 291px;
+			background: url("../img/pen-holder.png") no-repeat;
+			position: absolute;
+			left: -50px;
+			top: -10px;
+		}
+		.earphones {
+			height: 221px;
+			width: 165px;
+			background: url("../img/earphones.png") no-repeat;
+			position: absolute;
+			background-repeat: no-repeat;
+			right: 40px;
+			top: -10px;
+		}
+		.coffee-mug {
+			height: 137px;
+			width: 164px;
+			background: url("../img/coffee-mug.png") no-repeat;
+			position: absolute;
+			right: 40px;
+			bottom: 0px;
+		}
+		.row {
+			position: relative;
+		}
+	}
+}
