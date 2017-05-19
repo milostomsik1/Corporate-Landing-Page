@@ -1,0 +1,42 @@
+#clients-and-partners {
+	min-height: 648px;
+	background-image: url("../img/clients.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	@media (max-width: 991px) {
+		background-repeat: repeat-y;
+		background-size: auto;
+	}
+	.clients {
+		margin-top: 20px;
+		.client {
+			margin-top: 75px;
+			h3 {
+				color: $white;
+			}
+			p {
+				color: $white;
+				opacity: 0.66;
+				font-style: italic;
+				margin-top: 30px;
+			}
+			img {
+				margin-bottom: 23px;
+			}
+		}
+	}
+	.partners {
+		margin-top: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		a {
+			margin: 40px;
+			img {
+				display: inline-block;
+				opacity: 0.6;
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+#browser {
+	min-height: 756px;
+	max-height: 756px;
+	background-color: $bg-features;
+	position: relative;
+	@media (max-width: 767px) {
+		min-height: 700px;
+	}
+	@media (max-width: 575px) {
+		min-height: 650px;
+	}
+	.container {
+		margin-top: 100px;
+		p {
+			font-weight: 500;
+			opacity: 0.66;
+		}
+	}
+	img {
+		position: absolute;
+		bottom: 0;
+
+	}
+}
