@@ -5,6 +5,7 @@
 		padding-top: 75px;
 		padding-bottom: 75px;
 		.row:nth-child(1) {
+			margin-top: 10px;
 			h2 {
 				color: $white;
 				display: inline-block;
@@ -15,8 +16,9 @@
 		}
 		.row:nth-child(2) {
 			p {
-				margin-top: 27px;
-				margin-bottom: 8px;
+				margin-top: 23px;
+				margin-bottom: 23px;
+				margin-left: 20px;
 				display: inline-block;
 				color: $light-gray;
 				white-space: nowrap;
@@ -24,8 +26,7 @@
 					margin-top: 50px;
 				}
 				img {
-					padding-top: 30px;
-					padding-right: 18px;
+					transform: translate(-19px, 15px);
 				}
 			}
 		}
@@ -41,6 +42,8 @@
 				background-color: rgba(246,245,243, 0.1);
 				border: 1px solid rgba(246,245,243, 0.5);
 				color: $light-gray;
+				padding-left: 27px;
+				padding-right: 27px;
 				&::placeholder {
 					color: inherit;
 					text-transform: uppercase;
@@ -55,7 +58,7 @@
 		}
 		.row:nth-child(4) {
 			p {
-				margin-top: 46px;
+				margin-top: 35px;
 				margin-bottom: 0;
 				color: $light-gray;
 				opacity: 0.6;

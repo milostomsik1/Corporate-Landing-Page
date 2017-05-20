@@ -1,17 +1,17 @@
 //USER VARS
 $white: #fff;
-$black: #000;
-$red: #ff6d6d;
 $light-gray: #f6f5f3;
 $medium-gray: #949494;
+$dark-gray: #282828;
+$black: #000;
 $purple: #323969;
 $light-purple: #8084a1;
-$body-text: #282828;
+$red: #ff6d6d;
 
 
 //BOOTSTRAP OVERRIDE
 $brand-primary: $red;
-$body-color: $body-text;
+$body-color: $dark-gray;
 
 $font-family-sans-serif: Exo, Arial, sans-serif !default;
 
