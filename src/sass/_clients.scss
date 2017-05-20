@@ -4,6 +4,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	color: $white;
 	@media (max-width: 991px) {
 		background-repeat: repeat-y;
 		background-size: auto;
@@ -14,10 +15,9 @@
 		.client {
 			margin-top: 75px;
 			h3 {
-				color: $white;
+
 			}
 			p {
-				color: $white;
 				font-weight: 400;
 				font-style: italic;
 				margin-top: 30px;

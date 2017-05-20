@@ -11,7 +11,6 @@
 			.description-image {
 				@media (max-width: 991px) {
 					img {
-						display: inline-block;
 						margin-top: 30px;
 					}
 				}
@@ -19,10 +18,12 @@
 			.description-text {
 				margin-top: 50px !important;
 				margin-bottom: 50px !important;
-				h4 {
-					width: 100%;
+				h4, span {
 					@media (max-width: 991px) {
 						color: $white !important;
+					}
+					@media (max-width: 575px) {
+						color:$red !important;
 					}
 				}
 				h2 {
@@ -31,11 +32,6 @@
 				p {
 					margin-top: 27px;
 					margin-bottom: 0;
-				}
-				span {
-					@media (max-width: 991px) {
-						color: $white !important;
-					}
 				}
 			}
 		}

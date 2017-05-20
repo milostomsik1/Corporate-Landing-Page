@@ -3,11 +3,16 @@
 	.container {
 		min-height: 675px;
 		position: relative;
+		.pen-holder, .earphones, .coffee-mug {
+			position: absolute;
+			@media (max-width: 575px) {
+				display: none;
+			}
+		}
 		.pen-holder {
 			height: 329px;
 			width: 291px;
 			background: url("../img/pen-holder.png") no-repeat;
-			position: absolute;
 			left: -50px;
 			top: -10px;
 			@media (max-width: 991px) {
@@ -18,16 +23,11 @@
 				top: -50px;
 				left: -50px;
 			}
-			@media (max-width: 575px) {
-				display: none;
-			}
 		}
 		.earphones {
 			height: 221px;
 			width: 165px;
 			background: url("../img/earphones.png") no-repeat;
-			position: absolute;
-			background-repeat: no-repeat;
 			right: 40px;
 			top: -10px;
 			@media (max-width: 991px) {
@@ -37,20 +37,13 @@
 			@media (max-width: 767px) {
 				top: -50px;
 			}
-			@media (max-width: 575px) {
-				display: none;
-			}
 		}
 		.coffee-mug {
 			height: 137px;
 			width: 164px;
 			background: url("../img/coffee-mug.png") no-repeat;
-			position: absolute;
 			right: -30px;
 			bottom: -45px;
-			@media (max-width: 575px) {
-				display: none;
-			}
 		}
 		.features {
 			@media (max-width: 767px) {

@@ -1,20 +1,16 @@
 .bg-white {
 	background-color: $white !important;
 }
-
 .text-red {
 	color: $red !important;
 }
-
 ::selection {
 	color: $white;
 	background-color: $red;
 }
-
 input, button {
 	font-family: $font-family-sans-serif;
 }
-
 p {
 	font-weight: 500;
 	opacity: 0.66;

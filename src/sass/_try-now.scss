@@ -1,6 +1,7 @@
 #try-now {
 	min-height: 467px;
 	background-color: $purple;
+	color: $light-gray;
 	.container {
 		padding-top: 75px;
 		padding-bottom: 75px;
@@ -8,7 +9,6 @@
 			margin-top: 10px;
 			h2 {
 				color: $white;
-				display: inline-block;
 				span {
 					padding-left: 10px;
 				}
@@ -16,11 +16,7 @@
 		}
 		.row:nth-child(2) {
 			p {
-				margin-top: 23px;
-				margin-bottom: 23px;
-				margin-left: 20px;
-				display: inline-block;
-				color: $light-gray;
+				margin: 23px 20px;
 				white-space: nowrap;
 				@media (max-width: 991px) {
 					margin-top: 50px;
@@ -39,9 +35,9 @@
 				height: 50px;
 			}
 			input {
-				background-color: rgba(246,245,243, 0.1);
-				border: 1px solid rgba(246,245,243, 0.5);
-				color: $light-gray;
+				background-color: $very-transparent-light-gray;
+				border: 1px solid $semi-transparent-light-gray;
+				color: inherit;
 				padding-left: 27px;
 				padding-right: 27px;
 				&::placeholder {
@@ -60,11 +56,13 @@
 			p {
 				margin-top: 35px;
 				margin-bottom: 0;
-				color: $light-gray;
 				opacity: 0.6;
 				a {
 					text-decoration: underline;
 					color: inherit;
+					&:hover {
+						color: $red;
+					}
 				}
 			}
 		}
