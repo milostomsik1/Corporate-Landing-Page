@@ -38,6 +38,12 @@
 			img {
 				display: inline-block;
 				opacity: 0.6;
+				transform: scale(1);
+				transition: transform ease-in-out 350ms;
+				&:hover {
+					opacity: 0.9;
+					transform: scale(1.15);
+				}
 			}
 		}
 	}
