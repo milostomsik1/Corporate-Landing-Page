@@ -14,12 +14,11 @@
 			}
 		}
 		.row:nth-child(2) {
-
 			p {
 				margin-top: 27px;
 				margin-bottom: 8px;
 				display: inline-block;
-				color: $bg-features;
+				color: $light-gray;
 				white-space: nowrap;
 				@media (max-width: 991px) {
 					margin-top: 50px;
@@ -41,7 +40,7 @@
 			input {
 				background-color: rgba(246,245,243, 0.1);
 				border: 1px solid rgba(246,245,243, 0.5);
-				color: $bg-features;
+				color: $light-gray;
 				&::placeholder {
 					color: inherit;
 					text-transform: uppercase;
@@ -58,7 +57,7 @@
 			p {
 				margin-top: 46px;
 				margin-bottom: 0;
-				color: $bg-features;
+				color: $light-gray;
 				opacity: 0.6;
 				a {
 					text-decoration: underline;

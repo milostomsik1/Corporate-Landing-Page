@@ -1,7 +1,7 @@
 #browser {
 	min-height: 756px;
 	max-height: 756px;
-	background-color: $bg-features;
+	background-color: $light-gray;
 	position: relative;
 	@media (max-width: 767px) {
 		min-height: 700px;
@@ -12,8 +12,7 @@
 	.container {
 		margin-top: 100px;
 		p {
-			font-weight: 500;
-			opacity: 0.66;
+
 		}
 	}
 	img {

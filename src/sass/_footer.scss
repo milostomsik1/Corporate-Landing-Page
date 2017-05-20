@@ -10,7 +10,7 @@ footer {
 	@media (max-width: 767px) {
 		background: $white;
 	}
-	.col-lg-3 {
+	.col-sm-6 {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		.start-ex {
@@ -37,7 +37,6 @@ footer {
 		}
 		p {
 			font-size: 14px;
-			font-weight: 500;
 			position: relative;
 			z-index: 1;
 			opacity: 0.56;

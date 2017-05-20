@@ -1,5 +1,5 @@
 #features {
-	background-color: $bg-features;
+	background-color: $light-gray;
 	.container {
 		min-height: 675px;
 		position: relative;
@@ -52,57 +52,54 @@
 				display: none;
 			}
 		}
-		.row {
-			position: relative;
-			.features {
+		.features {
+			@media (max-width: 767px) {
+				padding-top: 200px;
+				padding-bottom: 160px;
+			}
+			@media (max-width: 575px) {
+				padding-top: 80px;
+				padding-bottom: 40px;
+			}
+			h2 {
+				margin-bottom: 41px;
 				@media (max-width: 767px) {
-					padding-top: 200px;
-					padding-bottom: 160px;
+					margin-bottom: 62px;
 				}
-				@media (max-width: 575px) {
-					padding-top: 80px;
-					padding-bottom: 40px;
+			}
+			.features-item {
+				padding-top: 40px;
+				padding-bottom: 40px;
+				img {
+					margin-bottom: 27px;
+					cursor: pointer;
 				}
-				h2 {
-					margin-bottom: 41px;
-					@media (max-width: 767px) {
-						margin-bottom: 62px;
+				img[src*="feature-1"] {
+					transform: rotateZ(-45deg);
+					transition: transform ease-in-out 350ms;
+					&:hover {
+					transform: rotateZ(0deg);
 					}
 				}
-				.features_item {
-					padding-top: 40px;
-					padding-bottom: 40px;
-					img {
-						margin-bottom: 27px;
-						cursor: pointer;
+				img[src*="feature-2"] {
+					transform: rotateX(180deg);
+					transition: transform ease-in-out 500ms;
+					&:hover {
+					transform: rotateX(0deg);
 					}
-					img[src*="feature-1"] {
-						transform: rotateZ(-45deg);
-						transition: transform ease-in-out 350ms;
-						&:hover {
-						transform: rotateZ(0deg);
-						}
+				}
+				img[src*="feature-3"] {
+					transform: rotateY(0deg);
+					transition: transform ease-in-out 500ms;
+					&:hover {
+					transform: rotateY(180deg);
 					}
-					img[src*="feature-2"] {
-						transform: rotateX(180deg);
-						transition: transform ease-in-out 500ms;
-						&:hover {
-						transform: rotateX(0deg);
-						}
-					}
-					img[src*="feature-3"] {
-						transform: rotateY(0deg);
-						transition: transform ease-in-out 500ms;
-						&:hover {
-						transform: rotateY(180deg);
-						}
-					}
-					h3 {
-						margin-bottom: 11px;
-					}
-					p {
-						margin-bottom: 0;
-					}
+				}
+				h3 {
+					margin-bottom: 11px;
+				}
+				p {
+					margin-bottom: 0;
 				}
 			}
 		}
