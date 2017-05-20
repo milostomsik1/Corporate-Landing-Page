@@ -1,0 +1,98 @@
+footer {
+	min-height: 332px;
+	background-color: $white;
+	background-image: url("../img/triangle-footer.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@media (max-width: 767px) {
+		background: $white;
+	}
+	.col-lg-3 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.start-ex {
+			font-size: 27px;
+		}
+		h3 {
+			position: relative;
+			margin-bottom: 0px;
+			padding-bottom: 15px;
+			span {
+				display: inline-block;
+				position: absolute;
+				color: $white;
+				z-index: 0;
+				background-image: url("../img/start-ex.png");
+				background-repeat: no-repeat;
+				height: 47px;
+				width: 42px;
+				padding-top: 8px;
+				padding-left: 2px;
+				margin-top: -8px;
+				margin-left: 3px;
+			}
+		}
+		p {
+			font-size: 14px;
+			font-weight: 500;
+			position: relative;
+			z-index: 1;
+			opacity: 0.56;
+			padding-top: 3px;
+		}
+		.nav-link {
+			font-size: 14px;
+			opacity: 0.66;
+			color: inherit;
+			padding: 5px 0;
+			&:hover {
+				color: $brand-primary;
+			}
+		}
+		.newsletter-form {
+			margin-top: 10px;
+			.form-control {
+				color: $body-text;
+				background-color: $light-gray;
+				&::placeholder {
+					color: $medium-gray;
+					text-transform: uppercase;
+				}
+				&:focus {
+					border: 1px solid $medium-gray;
+					background-color: $white;
+					text-transform: lowercase;
+				}
+			}
+			.input-group-addon {
+				background-color: $brand-primary;
+				height: 49px;
+			}
+			button {
+				width: 52px;
+				img {
+					padding-left: 3px;
+				}
+			}
+		}
+		.social {
+			margin-top: 17px;
+			a {
+				text-decoration: none;
+				padding: 10px;
+				.hide {
+					display: none;
+				}
+				&:hover img:first-child{
+					display: none;
+				}
+				&:hover img:last-child{
+					display: inline;
+				}
+			}
+		}
+	}
+}
