@@ -81,17 +81,65 @@ footer {
 		}
 		.social {
 			margin-top: 17px;
-			a {
-				text-decoration: none;
-				padding: 10px;
-				.hide {
-					display: none;
+			div {
+				display: inline-block;
+				overflow: hidden;
+				position: relative;
+				margin: 0 10px;
+				img {
+					position: absolute;
 				}
-				&:hover img:first-child{
-					display: none;
+			}
+			//dribble sprite
+			div:nth-child(1) {
+				width: 20px;
+				height: 21px;
+				img {
+					left: -60px;
 				}
-				&:hover img:last-child{
-					display: inline;
+				&:hover {
+					img {
+						left: -80px;
+					}
+				}
+			}
+			//facebook sprite
+			div:nth-child(2) {
+				width: 11px;
+				height: 21px;
+				img {
+					left: 0px;
+				}
+				&:hover {
+					img {
+						left: -11px;
+					}
+				}
+			}
+			//google plus sprite
+			div:nth-child(3) {
+				width: 20px;
+				height: 17px;
+				img {
+					left: -100px;
+				}
+				&:hover {
+					img {
+						left: -120px;
+					}
+				}
+			}
+			//twitter sprite
+			div:nth-child(4) {
+				width: 19px;
+				height: 17px;
+				img {
+					left: -22px;
+				}
+				&:hover {
+					img {
+						left: -41px;
+					}
 				}
 			}
 		}
