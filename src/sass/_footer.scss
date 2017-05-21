@@ -90,8 +90,7 @@ footer {
 					position: absolute;
 				}
 			}
-			//dribble sprite
-			div:nth-child(1) {
+			.social-dribble {
 				width: 20px;
 				height: 21px;
 				img {
@@ -103,8 +102,7 @@ footer {
 					}
 				}
 			}
-			//facebook sprite
-			div:nth-child(2) {
+			.social-facebook {
 				width: 11px;
 				height: 21px;
 				img {
@@ -116,8 +114,7 @@ footer {
 					}
 				}
 			}
-			//google plus sprite
-			div:nth-child(3) {
+			.social-google-plus {
 				width: 20px;
 				height: 17px;
 				img {
@@ -129,8 +126,7 @@ footer {
 					}
 				}
 			}
-			//twitter sprite
-			div:nth-child(4) {
+			.social-twitter {
 				width: 19px;
 				height: 17px;
 				img {
